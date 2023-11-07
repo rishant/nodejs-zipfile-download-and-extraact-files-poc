@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_zipfiledownload_extractfiles_poc",
+  "version": "1.0.0",
+  "description": "sample poc for download zip file from internet and search required file into zip and extract only those",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:download": "node downloadZipFileExample.js",
+    "start:extract": "node extractFilesFromZipFileExample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishant/nodejs-zipfile-download-and-extraact-files-poc.git"
+  },
+  "keywords": [
+    "adm-zip",
+    "extract",
+    "file"
+  ],
+  "author": "rishantgupta007@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishant/nodejs-zipfile-download-and-extraact-files-poc/issues"
+  },
+  "homepage": "https://github.com/rishant/nodejs-zipfile-download-and-extraact-files-poc#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.0"
+  }
+}
